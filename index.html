@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buketobox27 — съедобные букеты</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background: #1b1b1b; color: #fff; }
+    header {
+      background: url('photo1.jpg') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-blend-mode: darken;
+      background-color: rgba(0,0,0,0.5);
+    }
+    header h1 { font-size: 42px; color: #fff; margin-bottom: 15px; text-shadow: 0 2px 6px #000; }
+    header p { font-size: 20px; color: #ddd; margin-bottom: 30px; }
+    .btn {
+      background: #ff3c7d;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover { background: #e62866; }
+    section { padding: 60px 20px; max-width: 1200px; margin: auto; }
+    h2 { font-size: 28px; margin-bottom: 20px; text-align: center; }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .gallery-card {
+      background: #2b2b2b;
+      border-radius: 12px;
+      overflow: hidden;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    }
+    .gallery-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+    .gallery-card .info {
+      padding: 15px;
+      text-align: center;
+    }
+    .gallery-card .info h3 { margin-bottom: 8px; font-size: 20px; }
+    .benefits {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    .benefits div {
+      flex: 1 1 200px;
+      background: #2b2b2b;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .form {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .form input {
+      padding: 12px;
+      margin: 10px;
+      border: none;
+      border-radius: 6px;
+      width: 220px;
+    }
+    .form button {
+      padding: 12px 25px;
+      border: none;
+      background: #ff3c7d;
+      color: white;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .qr {
+      margin-top: 30px;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #aaa;
+      padding: 40px 20px;
+      background: #111;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Подарки, которые едят глазами</h1>
+  <p>Съедобные букеты и боксы — дарят эмоции и аппетит</p>
+  <a href="https://t.me/Buketobox27" class="btn" target="_blank">Получить каталог в Telegram</a>
+</header>
+
+<section>
+  <h2>Выберите свой вкус</h2>
+  <div class="gallery">
+    <div class="gallery-card">
+      <img src="photo1.jpg" alt="Новогодний бокс">
+      <div class="info">
+        <h3>Новогодний бокс</h3>
+        <p>от 1790₽</p>
+      </div>
+    </div>
+    <div class="gallery-card">
+      <img src="photo2.jpg" alt="Девичий каприз">
+      <div class="info">
+        <h3>Девичий каприз</h3>
+        <p>от 990₽</p>
+      </div>
+    </div>
+    <div class="gallery-card">
+      <img src="photo3.jpg" alt="Мужской набор">
+      <div class="info">
+        <h3>Мужской набор</h3>
+        <p>от 1490₽</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Почему выбирают нас?</h2>
+  <div class="benefits">
+    <div>🎯 6 лет на рынке</div>
+    <div>💬 1000+ довольных клиентов</div>
+    <div>📦 Доставка день в день</div>
+    <div>💰 Оплата после фото</div>
+  </div>
+</section>
+
+<section class="form">
+  <h2>Получить каталог и консультацию</h2>
+  <input type="text" placeholder="Ваше имя" />
+  <input type="tel" placeholder="Телефон" />
+  <br>
+  <button>Оставить заявку</button>
+</section>
+
+<div class="qr">
+  <h3>Наш Telegram</h3>
+  <img src="qr.jpg" width="140" alt="QR Telegram" />
+</div>
+
+<footer>
+  © Buketobox27, 2025 • Посмотреть больше: <a href="https://www.pixnoy.com/profile/buketobox27/" target="_blank" style="color:#fff;">Pixnoy</a>
+</footer>
+
+</body>
+</html>
